@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import oneexerciseone.Genre;
 import oneexerciseone.Movie;
 
 public class Main {
@@ -9,7 +10,7 @@ public class Main {
         Scanner scn = new Scanner(System.in);
 
         ArrayList<Movie> list = new ArrayList<Movie>();
-
+        
         while (true) {
             System.out.println("Enter the tltle, synopsis, year, genre, country, direcctor ");
             String aux = scn.nextLine();

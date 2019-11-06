@@ -1,4 +1,4 @@
-package exam1exercise2;
+package ec.edu.espe.exam1exercise2.model;
 
 import java.util.Scanner;
 

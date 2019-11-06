@@ -1,4 +1,4 @@
-package exam1exercise2;
+package ec.edu.espe.exam1exercise2.model;
 
 /**
  *
@@ -14,6 +14,32 @@ public class Book {
 
     public Book() {
 
+    }
+
+    public Book(String title, String author, String editorial, int yearPublication) {
+        this.title = title;
+        this.author = author;
+        this.editorial = editorial;
+        this.yearPublication = yearPublication;
+    }
+    
+    public void save(){
+        
+    }
+    
+    public void read(){
+        
+    }
+    
+    @Override
+    public String toString(){
+       String datos;
+       
+       datos = "Title: " + title +
+               "\nAuthor: " + author +
+               "\nEditorial: " + editorial +
+               "\nYear publication: " + yearPublication;
+       return datos;
     }
 
     /**

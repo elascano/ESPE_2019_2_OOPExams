@@ -46,9 +46,11 @@ public class Movies {
                         
                         List<DateMovies>movies = new ArrayList<DateMovies>();
                         
-                        movies.add(new DateMovies("MOVIE 1", "14-14-16", "MIEDO"," JUAN VALDES"));
-                        movies.add(new DateMovies("MOVIE 2", "14-16-16", "COMEDIA"," JUAN CARLOS"));
-                        movies.add(new DateMovies("MOVIE 3", "14-15-20", "ACCION", "JUAN CELEDA"));
+                        movies.add(new DateMovies("TERMINATOR", "2019", "ACCION"," TEEN MELER"));
+                        movies.add(new DateMovies("ANGRY BEARS", "2019", "FAMILY"," TRUM BAND ORNAN"));
+                        movies.add(new DateMovies("MISTER BEEN", "1997", "COMEDY", "MELL SMITH"));
+                        movies.add(new DateMovies("SPIDERMAN", "2002", "FANTASY", "SAM RAINI"));
+
                         
                         ExportarCSV(movies);
                         break;

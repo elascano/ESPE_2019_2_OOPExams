@@ -19,6 +19,7 @@ public class Exam1Exercise1 {
 
         Scanner scan = new Scanner(System.in);
         Movie data1 = new Movie();
+        
         System.out.println("First Name Author: ");
         String fname = scan.nextLine();
         System.out.println("Last Name Author: ");
@@ -38,7 +39,7 @@ public class Exam1Exercise1 {
         int year = scan.nextInt();
         data1.setYear(year);
         
-        System.out.println("\n" + data1.getTitle() + "\n" + data1.getSinopsis() + "\n" + data1.getYear() + "\n" + data1.getGenre() + "\n");
+        System.out.println("\n The title is: " + data1.getTitle() + "\n Sinopsis: " + data1.getSinopsis() + "\n" + data1.getYear() + "\n" + data1.getGenre() + "\n");
         System.out.println(fname + "\n" + lname + "\n" + country + "\n");
 
     }

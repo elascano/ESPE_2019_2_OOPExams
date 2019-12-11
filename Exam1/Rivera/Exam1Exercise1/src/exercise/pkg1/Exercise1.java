@@ -50,7 +50,9 @@ public class Exercise1 {
             System.out.println("Type a litle: ");
             litle = enter.next();
             System.out.println("Type a synopsis: ");
-            synopsis = enter.next();   
+            synopsis = enter.next(); 
+            System.out.println("Type a year: ");
+            year = enter.nextInt();
             System.out.print("Type a genre: ");
             genre = enter.next();
                             
@@ -60,6 +62,7 @@ public class Exercise1 {
                 mostrar.println("Name: " + litle );
                 mostrar.println("synopsis: " + synopsis );
                 mostrar.println("Genre: " + genre);
+                mostrar.println("Year: " + year);
                 mostrar.println("");
             }
             mostrar.close();

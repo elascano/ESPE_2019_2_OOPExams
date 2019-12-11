@@ -6,10 +6,12 @@ public class Exam1Excersise2 {
     
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        Book[] book = new Book[3];
-        book[0] = new Book("El principito","Anotine","OCEANO",1990);
-        book[1] = new Book("Los puentes de madison","Clint","Accion",1991);
-        book[2] = new Book("Sociedad de los poetas","Robert","OCEANO",1980);
+        Book[] book = new Book[4];
+        book[0] = new Book("la vida","Anotine","Springer",2000);
+        book[1] = new Book("la ternura","Clint","Springer",2000);
+        book[2] = new Book("Sociedad de los poetas","Robert","Springer",2000);
+        book[3] = new Book("Titanic","Robert","Scopus",1999);
+        
         SystemList list = new SystemList();
         for(int i = 0; i < 3; i++){
             list.addToBooks(book[i]);

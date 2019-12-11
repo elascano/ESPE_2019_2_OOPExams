@@ -21,3 +21,7 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/Exam2/Teran/10/ec.edu.espe.Ex10/build/
+/Exam2/Teran/10/ec.edu.espe.Ex10/nbproject/private/
+/Exam2/Teran/11/ec.edu.espe.Ex11/build/
+/Exam2/Teran/11/ec.edu.espe.Ex11/nbproject/private/

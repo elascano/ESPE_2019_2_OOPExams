@@ -115,20 +115,20 @@ public class JClient extends javax.swing.JFrame {
          Strategy strategyA = new ConcreteStrategyA();
          Context context = new Context(strategyA);
          context.ContextInterface();
-         jLabel4.setText("Estrategia A");
+         jLabel4.setText("Estrategia Burbuja");
          }
          else{
          if(element <= 7){
          Strategy strategyB = new ConcreteStrategyB();
          Context context = new Context(strategyB);
          context.ContextInterface();
-         jLabel4.setText("Estrategia B");
+         jLabel4.setText("Estrategia rapida");
          }
          else{
          Strategy strategyC = new ConcreteStrategyC();
          Context context = new Context(strategyC);
          context.ContextInterface();
-         jLabel4.setText("Estrategia C");
+         jLabel4.setText("Estrategia insercion");
          }
          }
     }//GEN-LAST:event_jButton1ActionPerformed

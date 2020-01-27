@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.Exercise7.model;
+package ec.edu.espe.Exercise.model;
 
 /**
  *
  * @author ASUS
  */
-public class QuickSort {
-    
+public interface SortingStrategy {
+
+    public void sort(int array[]);
+
 }

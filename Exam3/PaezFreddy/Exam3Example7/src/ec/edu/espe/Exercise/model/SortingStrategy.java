@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.Exam3Question7.model;
+package ec.edu.espe.Exercise.model;
 
 /**
  *
- * @author H304
+ * @author ASUS
  */
 public interface SortingStrategy {
-    
-    
-  public void sort(int array[]);
+
+    public void sort(int array[]);
+
 }

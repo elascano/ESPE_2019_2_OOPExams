@@ -3,21 +3,21 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.espe.edu.Exam3Question7.model;
+package ec.edu.espe.Exercise.model;
 
 /**
  *
- * @author H304
+ * @author ASUS
  */
 public class SortingContext {
 
-    public SortingStrategy setSortStrategy(int index) {
+    public SortingStrategy setSortStrategy(int size) {
         SortingStrategy strategy = null;
-        if (index <= 3) {
+        if (size <= 3) {
             strategy = new BubbleSort();
-        } else if (index <= 7 && index >= 4) {
+        } else if (size <= 7 && size >= 4) {
             strategy = new InsertionSort();
-        } else if (index >= 8) {
+        } else if (size >= 8) {
             strategy = new QuickSort();
         }
 
